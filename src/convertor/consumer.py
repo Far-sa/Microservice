@@ -10,7 +10,7 @@ def main():
     db_video = client.videos
     db_mp3s = client.mp3s
     
-    #* Gridfs
+    #* Gridfs database
     fs_mp3s = gridfs.Gridfs(db_mp3s)
     fs_videos = gridfs.Gridfs(db_video)
 
